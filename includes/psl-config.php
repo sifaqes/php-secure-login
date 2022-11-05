@@ -1,38 +1,15 @@
 <?php
 
-/** 
- * Copyright (C) 2013 peredur.net
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
-/**
- * This file contains global configuration variables
- * Things like whether anyone can register.
- * 
- * Whether or not it's a secure (https) connection could
- * also go here...
- */
-
-/**
- * These are the database login details
- */
 define("HOST", "localhost"); 			// The host you want to connect to. 
 define("USER", "root"); 			// The database username. 
 define("PASSWORD", ""); 	// The database password. 
 define("DATABASE", "secure_login");             // The database name.
 
+
+// define("HOST", "db5007244829.hosting-data.io"); 			// The host you want to connect to. 
+// define("USER", "dbu2520469"); 			// The database username. 
+// define("PASSWORD", "NFsUi2da@p#J6yL"); 	// The database password. 
+// define("DATABASE", "dbs5972150");             // The database name.
 /**
  * Who can register and what the default role will be
  * Values for who can register under a standard setup can be:
@@ -54,5 +31,5 @@ define("DEFAULT_ROLE", "member");
  * 
  * If you are using an HTTPS connection, change this to TRUE
  */
-define("SECURE", FALSE);    // For development purposes only!!!!
+define("SECURE", TRUE);    // For development purposes only!!!!
 
